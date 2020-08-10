@@ -29,3 +29,4 @@ Note: you should add it to the stock server resources like 'chat', 'spawnmanager
 --
 # To do:
 - Make it work across runtimes (currently only Lua is supported)
+- Add support for ESX and/or VRP's callbacks (pull requests welcome as I don't use either)
