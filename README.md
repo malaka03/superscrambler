@@ -3,6 +3,13 @@
 This resource will automatically scramble all your event names so that your server is more secure from injectors and other cheaters alike.  
 It currently only supports Lua->Lua events. Any cross-runtime events will not work properly and have to be added to the whitelist in `main.lua`!
 
+## What does it do? 
+It simply hashes the event name using a very simple hash:
+
+Before: `playerJoining`  
+After: `uranus-magazine-don`
+
+
 ## How to set up
 1. Clone this repository into your `server-data/resources` folder.
 2. Add `ensure superscrambler` above all other `ensure` or `start` commands in your `server.cfg` - **VERY IMPORTANT**.
